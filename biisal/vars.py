@@ -11,7 +11,7 @@ bisal_channel = "https://telegram.me/Rm_Movie_Flix"
 bisal_grp = "https://t.me/Movies_Supports"
 
 class Var(object):
-    MULTI_CLIENT = True
+    MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '26649585'))
     API_HASH = str(getenv('API_HASH', '588a3ea6fd01ae88bd2e10fed7d55b2c'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '7079136870:AAFkh6rpF9yGWhJw2i_aguJ5Fa078z_URFU'))
