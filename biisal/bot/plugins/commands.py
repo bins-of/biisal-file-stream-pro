@@ -119,7 +119,7 @@ async def help_cd(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<b>sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.ᴘʟᴇᴀsᴇ <a href='https://t.me/biisal_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ sᴜᴘᴘᴏʀᴛ</a></b>",
+                text="<b>sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.ᴘʟᴇᴀsᴇ <a href='https://t.me/Rm_Movie_Flix'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ sᴜᴘᴘᴏʀᴛ</a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -246,7 +246,7 @@ async def cb_handler(client, query):
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
-            caption=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀsɴᴀ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/biisal_bot'>Bɪɪsᴀʟ</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ  ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/adarsh-goel'>ᴀᴅᴀʀsʜ</a> ʙʀᴏ..\n\nGɪᴛʜᴜʙ : <a href='https://github.com/biisal'>Bɪɪsᴀʟ's Gɪᴛʜᴜʙ</a></b>",
+            caption=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀsɴᴀ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/Rm_Movie_Flix'>RM Movie Flix</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ  ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/RahatVx'>ᴀᴅᴀʀsʜ</a> ʙʀᴏ..\n\nJoin Now : <a href='https://t.me/Rm_Movie_Flix'>Rm Movie Flix</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
