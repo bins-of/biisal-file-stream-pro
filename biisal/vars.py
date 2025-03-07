@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 bot_name = "RM Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
 bisal_channel = "https://telegram.me/Rm_Movie_Flix"
-bisal_grp = "https://t.me/Movies_Supports"
+bisal_grp = "https://t.me/RM_Supports"
 
 class Var(object):
     MULTI_CLIENT = False
